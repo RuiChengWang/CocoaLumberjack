@@ -855,9 +855,9 @@
 				MODULEMAP_FILE = Lumberjack/CocoaLumberjack.modulemap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -880,8 +880,8 @@
 				MODULEMAP_FILE = Lumberjack/CocoaLumberjack.modulemap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
-				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
